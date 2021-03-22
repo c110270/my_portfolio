@@ -1,0 +1,64 @@
+/*======================================
+text-align
+======================================*/
+.hp_tac{
+  text-align: center;
+}
+
+/*======================================
+margin
+======================================*/
+.hp_mt20{
+  margin-top: 20px;
+}
+
+.hp_mt80{
+  margin-top: 80px;
+}
+
+.hp_ml85{
+  @include _mq(sp){
+    margin-left: 85px;
+  } 
+}
+
+/*======================================
+padding
+======================================*/
+.hp_pt70{
+  @include _mq(sp){
+    padding-top: 70px;
+  }
+}
+
+.hp_pt50{
+  @include _mq(sp){
+    padding-top: 50px;
+  }
+  
+}
+
+/*======================================
+display
+======================================*/
+.hp_dib{
+  @include _mq(sp){
+    display: inline-block;
+  }
+}
+
+/*======================================
+color
+======================================*/
+.c_white{
+  @include _mq(sp){
+    color: #ffffff;
+  }
+}
+
+.ls_0.1{
+  @include _mq(sp){
+    display: inline-block;
+    top: 280px;
+  }
+}
