@@ -3,10 +3,8 @@
 
   &_logo{
     margin-right: auto;
-
-    @include _mq(sp){
-      width: 120px;
-    }
+    width: 120px;
+    height: 50px;
   }
 }
 
