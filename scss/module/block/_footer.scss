@@ -7,9 +7,8 @@
   }
 
   &_logo{
-    @include _mq(sp){
-      width: 120px;
-    }
+    width: 120px;
+    height: 50px;
   }
 
   &_copyright{
