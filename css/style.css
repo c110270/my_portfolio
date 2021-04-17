@@ -198,12 +198,8 @@ module(block)
 
 .bl_header_logo {
   margin-right: auto;
-}
-
-@media screen and (max-width: 767px) {
-  .bl_header_logo {
-    width: 120px;
-  }
+  width: 120px;
+  height: 50px;
 }
 
 .bl_gnav_list {
@@ -808,10 +804,9 @@ input[type="submit"]:hover {
   margin-left: auto;
 }
 
-@media screen and (max-width: 767px) {
-  .bl_footer_logo {
-    width: 120px;
-  }
+.bl_footer_logo {
+  width: 120px;
+  height: 50px;
 }
 
 .bl_footer_copyright {
